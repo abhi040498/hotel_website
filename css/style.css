@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: block;
+    background: #fff;
+}
+/* Navbar styling */
+
+.nav-main {
+    list-style: none;
+    margin: 0;
+    padding: 25px;
+    background: #333;
+    overflow: auto;
+}
+.nav-main li{
+    float: right;
+}
+.nav-main li a{
+    display: block;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.2em;
+    color: #fff;
+}
+.active{
+    background: white;
+    background-color: black;
+    color: lime;
+}
+
+/* Logo css */
+.nav-main-logo li {
+    float: right;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.nav-main-logo li a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.nav-main-logo {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 22px;
+    background: #333;
+}
+
+/* Container CSS */
+.container {
+    background: blue ;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* main Image CSS */
+.main-container-text1 {
+    padding-top: 150px;
+    font-size: 4em;
+    color: #fff;
+}
+.main-container-text2 {
+    padding-top: 50px;
+    font-size: 1.2em;
+    color: #fff;
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.span-coral {
+    color: coral;
+}
+
+/* Button main css */
+.btn-main {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    background-color: #333;
+    color: #fff;
+}
+img {
+    display: inline-block;
+    margin: auto;
+}
+
+#box-1 {
+    background: url("/hotelwebsite/img/showcase.jpg")no-repeat center center/cover;
+}
+
+#box-2 {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    background: #333;
+    text-align: center;
+    margin-top: 0;
+}
+#box-2 img{
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+#box-2-content {
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+    color: #fff;
+}
+#box-2-content p {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+.btn-readmore {
+    align-items: end;
+    margin: 35px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.box-3 {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 32.9%;
+    padding: 10px;
+    padding-top: 30px;
+    height: 300px;
+    text-align: center;
+}
+.box-3 h2 {
+    padding: 15px;
+}
+.box-3 h3 {
+    padding: 15px;
+}
+.box-3 p {
+    padding: 20px;
+}
+.color-yellow {
+    background: rgb(230, 230, 125);
+}
+
+.footer {
+    padding: 35px;
+    background: #333;
+    text-align: center;
+    color: #fff;
+}
+
+/* About US CSS */
+
+#box-2-about {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 320px;
+    text-align: left;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+#box-2-about img{
+    display: inline-block;
+    width: 35%;
+    height: 220px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#box-2-content-about {
+    display: inline-block;
+    width: 58%;
+    padding: 25px;
+    padding-bottom: 0;
+}
+#box-2-content-about h1{
+    font-size: 3em;
+}
+#box-2-content-about p {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+#box-1-about {
+    background: url('/img/test-bg.jpg')no-repeat center center/cover;
+    margin-top: 10px;
+}
+.container-about {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    color: black;
+}
+.container-about h1 {
+    padding-top: 60px;
+    color: #fff;
+    font-size: 3em;
+}
+#container-card1 {
+    display: inline-block;
+    background: rgb(245, 255, 152);
+    height: 150px;
+    width: 100%;
+    margin-top: 20px;
+}
+#container-card1 p {
+    float: left;
+    text-align: left;
+    padding-top: 20px;
+    margin: 10px;
+    height: 90%;
+    width: 75%;
+}
+#container-card1 img{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    height: 80%;
+    width: 15%;
+    border-radius: 50%;
+}
+
+/* Contact CSS */
+#box-2-contact{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+/* Form CSS */
+.form-group {
+padding-top: 10px;
+
+font-family: 'Raleway', sans-serif;
+margin-top: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.form-group input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+.form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    min-height: 200px;
+}
+.box-2-contact {
+    background: #443f3f;
+}
+.box-3-contact {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 32.9%;
+    padding: 10px;
+    padding-top: 30px;
+    height: 250px;
+    text-align: center;
+    color: #fff;
+}
+.box-3-contact h2 {
+    padding: 15px;
+}
+.box-3-contact h3 {
+    padding: 15px;
+}
+.box-3-contact p {
+    padding: 20px;
+}
+.color-yellow {
+    background: rgb(230, 230, 125);
+}
