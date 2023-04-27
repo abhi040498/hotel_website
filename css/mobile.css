@@ -1,0 +1,51 @@
+
+
+#primary-show .primary-show-content {
+    padding-top: 50px;
+}
+#primary-show {
+    height: 400px;
+}
+
+#section-info  .info-img  {
+    display: none;
+}
+#section-info .info-content {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.box {
+    width: 100%;
+    float: none;
+}
+
+/* About Section CSS*/ 
+
+#about-info .about-main-right {
+    width: 100%;
+    float: none;
+}
+#about-info .about-main-right img {
+    padding-top: 10px;
+}
+#about-info .about-main-left {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.heading-large {
+    font-size: 35px;
+}
+
+#testimonials {
+    height: 100%;
+    padding-top: 50px;
+}
+#testimonials h2 {
+    padding-bottom: 10px;
+}
+#testimonials .testimonial {
+    padding: 10px;
+}
